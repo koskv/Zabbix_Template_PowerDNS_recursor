@@ -9,7 +9,7 @@ PDNS_REC_CTL="/usr/bin/rec_control"
 TMP_FILE="/tmp/pdns_rec.txt"
 
 # Running chech pdns-recursor
-`${PDNS_REC_CTL} get-all`
+`${PDNS_REC_CTL} get`
 if [ $? -eq 0 ]; then
 
 	# ping Alive
